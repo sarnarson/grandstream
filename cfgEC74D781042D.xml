@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gs_provision version="1">
+  <config version="1">
+
+    <!-- Account -->
+    <P8>1</P8>                      <!-- Account Active -->
+    <P3>HomeAssistant</P3>          <!-- Account Name -->
+
+    <!-- SIP Server (Home Assistant) -->
+    <P9>192</P9>
+    <P10>168</P10>
+    <P11>1</P11>
+    <P12>210</P12>
+
+    <!-- SIP Credentials -->
+    <P35>ha_sip_user</P35>          <!-- SIP User ID -->
+    <P36>ha_sip_user</P36>          <!-- Authenticate ID -->
+    <P37>2</P37>                    <!-- Authenticate using ID -->
+    <P34>REDACTED_PASSWORD</P34>    <!-- SIP Password -->
+
+    <!-- SIP Transport -->
+    <P2912>udp</P2912>
+
+    <!-- Registration -->
+    <P32>60</P32>                   <!-- Register Expiration -->
+    <P31>1</P31>                    <!-- SIP Registration -->
+
+    <!-- Ports -->
+    <P40>5060</P40>                 <!-- SIP Server Port -->
+    <P740>5062</P740>               <!-- Local SIP Port -->
+
+    <!-- Disable outbound proxy / routing -->
+    <P71></P71>
+
+    <!-- NAT / Network -->
+    <P84>20</P84>                   <!-- Keep Alive -->
+    <P85>15</P85>
+    <P29>0</P29>                    <!-- NAT Traversal OFF -->
+    <P30></P30>                     <!-- No STUN -->
+
+    <!-- SIP Compatibility -->
+    <P751>0</P751>                  <!-- Validate Incoming SIP = NO -->
+    <P72>1</P72>                    <!-- Check SIP User ID -->
+
+    <!-- Codec (PCMU first) -->
+    <P58>8</P58>                    <!-- PCMU -->
+    <P59>0</P59>
+
+  </config>
+</gs_provision>
